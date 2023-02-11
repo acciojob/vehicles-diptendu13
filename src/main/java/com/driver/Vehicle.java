@@ -18,6 +18,10 @@ public class Vehicle {
         System.out.println("steer method called - The direction is changed to: " + currentDirection + " degrees");
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getCurrentSpeed() {
         return currentSpeed;
     }
